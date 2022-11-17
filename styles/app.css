@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ==================== Start Header ==================== */
+header{
+    background: url("../images/headerBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 25px;
+    align-items: center;
+}
+
+
+.logo-wraper{
+
+}
+.logo-img{
+
+}
+.main-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+.menu-item{
+    margin: 0 25px;
+}
+
+.login-btn {
+    background-color: #fff ;
+    color: #93A5FF;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Nunito Bold';
+}
+
+.contact-btn span{
+    margin-left: 10px;
+}
+
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+.icon-times{
+    cursor: pointer;
+    display: none;
+}
+
+/* ==================== Header Content ==================== */
+.header-content{
+    margin-top: 80px;
+}
+.header-title {
+    font-family: 'Roboto' , sans-serif;
+    font-size: 42px;
+}
+.header-caption {
+    opacity: 0.8;
+    font-size: 21px;
+}
+.flex-wrapper{
+    flex-basis: 330px;
+}
+.header-input{
+    color: #fff;
+    background-color: #384170;
+    padding: 11px 15px ;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px ;
+    margin-right: 2px;
+    max-width: 280px;
+    width: 100%;
+}
+.header-input::placeholder{
+    color: #fff;
+}
+.header-domain {
+    background-color: #384170;
+    padding: 11px 15px 11px  10px ;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px ;
+}
+.header-btn{
+    margin-left: 25px;
+}
+
+/* ==================== End Header  ==================== */
+
+/* ==================== Start Main  ==================== */
+
+.section-title{
+    font-family: "Nunito ExtraBold";
+    color: #2E2E2E;
+    margin : 0;
+}
+.section-caption{
+    color: #2E2E2E;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* -------------------- services Section -------------------- */
+
+.services{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.services div.row{
+    margin-top: 80px;
+}
+.service{
+    align-items: flex-start;
+    margin-top: 40px ;
+}
+.service img{
+    margin-right: 20px;
+}
+.service-content{
+    text-align: left;
+}
+.service-content h3{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-family: "Nunito Bold" ;
+    color: #2E2E2E ;
+}
+.service-content p{
+    opacity: 0.8;
+    line-height: 25px;
+    font-size: 17px;
+    max-width: 430px;
+}
