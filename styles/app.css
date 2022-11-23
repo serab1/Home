@@ -23,8 +23,8 @@ header{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 25px 0 25px;
     align-items: center;
+    padding: 35px 0;
 }
 
 
@@ -42,6 +42,9 @@ header{
 
 }
 .menu-item{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
     margin: 0 25px;
 }
 
@@ -52,7 +55,6 @@ header{
     border-radius: 5px;
     font-family: 'Nunito Bold';
 }
-
 .contact-btn span{
     margin-left: 10px;
 }
@@ -69,7 +71,7 @@ header{
 
 /* ==================== Header Content ==================== */
 .header-content{
-    margin-top: 80px;
+    margin-top: 45px;
 }
 .header-title {
     font-family: 'Roboto' , sans-serif;
@@ -110,32 +112,34 @@ header{
 /* ==================== Start Main  ==================== */
 
 .section-title{
+    text-align: center;
     font-family: "Nunito ExtraBold";
     color: #2E2E2E;
     margin : 0;
+    font-size: 30px;
 }
 .section-caption{
+    text-align: center;
     color: #2E2E2E;
     margin-top: 10px;
     opacity: 0.8;
+    font-size: 22px;
+    margin-bottom: 0;
 }
 
 /* -------------------- services Section -------------------- */
 
 .services{
     text-align: center;
-    padding: 50px 0;
 }
 
-.services div.row{
-    margin-top: 80px;
-}
 .service{
     align-items: flex-start;
     margin-top: 40px ;
 }
 .service img{
-    margin-right: 20px;
+    margin-right: 22px;
+    width: 60px;
 }
 .service-content{
     text-align: left;
@@ -148,7 +152,338 @@ header{
 }
 .service-content p{
     opacity: 0.8;
-    line-height: 25px;
+    line-height: 28px;
     font-size: 17px;
     max-width: 430px;
+}
+
+/* -------------------- Start Section -------------------- */
+.start {
+    background-color: #f7f8ff;
+}
+.start .row .col-12{
+    margin-bottom: 25px;
+}
+.start-box{
+    position: relative;
+    border-radius: 5px;
+    padding: 30px;
+}
+.start-logo{
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+.start-title{
+    font-family: "Nunito Bold";
+    color: #fff;
+    margin-top: 38px;
+}
+.start-description{
+    color: #fff;
+    line-height: 28px;
+}
+.start-a{
+    background-color: #fff !important;
+    color: #93A5FF !important;
+    font-family: "Nunito Bold";
+    display: block;
+    width: 155px;
+    margin-left: auto;
+}
+.start-a i{
+    margin-left: 10px;
+}
+.start-btn i {
+    margin-left: 10px;
+}
+.start-img-fix{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    max-width: 200px;
+}
+.start-box-1{
+    background-color: #93a5ff;
+}
+.start-box-2{
+    background-color: #424D83;
+}
+.start-logo-1 {
+    background-color: #424D83;
+}
+.start-logo-2 {
+    background-color: #93a5ff;
+}
+
+/* -------------------- Plans Section -------------------- */
+.plans {
+}
+
+.plan{
+    overflow: hidden;
+    text-align: center;
+    color: #2E2E2E;
+    box-shadow: 0px 0px 15px 0px rgb(0,0,0,0.12);
+    border-radius: 5px;
+    margin-bottom: 25px;
+
+}
+.plan:hover .plan-bottom{
+    height: 240px;
+}
+.plan:hover .plan-top{
+    border-top: 8px solid #93A5FF;
+}
+.plan-top{
+    height: 320px;
+    padding: 60px 30px 0px 30px;
+    transition: 0.3s;
+    border-top: 8px solid transparent;
+}
+.plan-title{
+    font-family: "Nunito Bold";
+}
+.plan-description{
+    line-height: 28px;
+}
+.plan-bottom{
+    border-top: 1px solid #EBEBEB;
+    padding: 30px 0;
+    height: 129px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.plan-price{
+    font-size: 30px;
+    margin-top: 15px;
+}
+.plan-price small{
+    font-size: 15px;
+}
+.plan-btn{
+    color: #93A5FF !important;
+    background-color: #F7F8FF !important;
+    font-family: "Nunito Bold" ;
+    display: block;
+    width: 185px;
+    margin-top: 50px;
+    margin-bottom: 15px ;
+}
+.plan-btn i {
+    margin-left: 10px;
+}
+
+/* -------- Comments Section ------------*/
+
+.comments {
+    background-color: #F7F8FF;
+    position: relative;
+}
+
+.comments-img {
+    position: absolute;
+    width: 160px;
+
+}
+
+.comments-img1 {
+    top: -30px;
+    right: 0;
+}
+
+.comments-img2 {
+    bottom: -40px;
+    left: 0;
+}
+
+.comment {
+    padding: 0 60px;
+}
+
+.comment-img {
+    width: 85px !important;
+    height: 85px !important;
+    margin-right: 15px;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+    box-shadow: 0 5px 10px rgba(0 , 0 , 0 , 0.16 ) ;
+}
+
+.comment-content {
+
+}
+
+.comment-rating {
+
+}
+
+.comment-rating i {
+    color: #FAD56B;
+    margin-right: 3px;
+}
+
+.comment-body {
+    font-family: "Nunito italic";
+    color: #2E2E2E;
+    line-height: 28px;
+}
+
+.comment-person {
+    color: #2E2E2E;
+    font-family: "Nunito Bold";
+}
+.comment-person:before{
+    content: "-";
+    margin-right: 5px;
+}
+.owl-dots .owl-dot {
+    outline: none;
+}
+
+.owl-dots .owl-dot span {
+    background-color: #93A5FF !important;
+    opacity: 0.4;
+}
+
+.owl-dots .owl-dot.active span {
+    transform: scale(1.6);
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(147 , 165 , 255 , 0.45 ) ;
+}
+.owl-next,.owl-prev{
+    outline: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.owl-prev{
+    left: -20px;
+}
+.owl-next{
+    right: -20px;
+}
+.owl-prev span, .owl-next span {
+    font-size: 34px !important;
+    color: #889CFF !important;
+    width: 40px;
+    height: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: rgba(147,165,225,0.15) !important;
+    border-radius: 5px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: 0;
+    color: #889CFF;
+    text-decoration: none;
+}
+
+ /* -------------------- Clients Section -------------------- */
+
+.client-logo{
+    list-style: none;
+    padding: 50px 0;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.client-logo li{
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+.client-logo li img{
+    margin: 0 15px;
+    width: 150px;
+}
+.logo-btn{
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+}
+
+/* ==================== End Main  ==================== */
+
+/* ==================== Start Footer  ==================== */
+
+footer{
+    background: url("../images/footer_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 140px 0 30px 0;
+    background-position: center top;
+}
+footer p{
+    line-height: 28px;
+}
+footer .footer-bottom > div:last-child > a {
+    line-height: 28px;
+}
+.footer-list{
+
+}
+.footer-list-title{
+    text-transform: uppercase;
+}
+.footer-menu{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-menu-item{
+    margin-bottom: 8px;
+}
+.footer-menu-link{
+
+}
+
+.accepts{
+
+
+}
+.accept{
+    background-color: #2D355D;
+    border-radius: 5px;
+    margin-right: 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    width: 70px;
+}
+.accept-img-100 {
+    width: 100% !important;
+}
+.accept-img-45{
+    width: 45% !important;
+}
+.accept img{
+    width: 65%;
+}
+
+.footer-bottom{
+    margin-top: 60px;
+    justify-content: end    ;
+}
+.social{
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+.social-item{
+    margin-right: 10px;
+}
+.footer-logo{
+    margin-bottom: 15px;
+}
+
+
+.br-1::after{
+    content: " ";
+    border-right: 1px solid #fff;
+    margin: 0 15px;
 }

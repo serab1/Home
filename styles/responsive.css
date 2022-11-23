@@ -14,11 +14,13 @@
         transition: 0.3s;
     }
     .menu-item{
+        display: block;
         margin: 25px 15px;
     }
     .login-btn {
         display: block;
         text-align: center;
+        margin-right: 15px;
     }
     .header-btn{
         margin-left: 0;
@@ -35,12 +37,6 @@
         max-width: 100%;
     }
 
-    .service-col-1{
-        order: 1;
-    }
-    .service-col-2{
-        order: 0;
-    }
     .services-img{
         margin-bottom: 35px;
     }
@@ -48,14 +44,40 @@
 }
 
 @media  only screen and (max-width: 768px) {
-    .content{
-        order: 1;
-    }
     .img{
         order: 0;
     }
+    .content{
+        order: 1;
+    }
     .header-content {
         margin-top: 0;
+    }
+    header{
+        height: 750px !important;
+    }
+    .plan-bottom{
+        height: 240px;
+    }
+    .plan-top{
+        border-top: 8px solid #93A5FF;
+    }
+    .footer-list-title-4{
+        display: flex;
+        justify-content: center;
+    }
+
+    .accepts-4{
+        justify-content: center;
+    }
+
+}
+@media  only screen and (width: 768px) {
+    .img{
+        order: 1;
+    }
+    .content{
+        order: 0;
     }
 
 }
@@ -68,5 +90,37 @@
         font-size: 18px;
         opacity: 0.8;
     }
+    .start-img-fix{
+        max-width: 150px;
+    }
+
+    .client-logo li img{
+        width: 80px;
+    }
+    .section-title {
+        font-size: 25px;
+    }
+    .section-caption{
+        font-size: 17px;
+    }
+    .comment {
+        display: block !important;
+        text-align: center;
+    }
+    .comment-img{
+        margin: 20px auto;
+    }
+    footer{
+        text-align: center;
+    }
+
+
+    .footer-bottom{
+        justify-content: space-between !important;
+    }
+    .social{
+        justify-content: center;
+    }
 
 }
+
