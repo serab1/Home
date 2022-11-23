@@ -5,9 +5,6 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="cache-control" content="no-cache">
-    <meta http-equiv="pragma" content="no-cache">
-    <meta http-equiv="expires" content="0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/grid.css">
@@ -19,13 +16,14 @@
     <link rel="stylesheet" href="./styles/app.css">
     <link rel="stylesheet" href="./styles/responsive.css">
 
+    <link rel="stylesheet" href="./styles/animate.min.css">
 </head>
 <body>
 
 <header>
     <div class="container">
         <nav class="nav">
-            <div class="logo-wraper">
+            <div class="logo-wraper animate__animated animate__bounce">
                 <div>
                     <img src="./images/logo.png" alt="logo" class="logo-img">
                 </div>
@@ -41,7 +39,7 @@
         </nav>
 
         <div class="row align-items-center header-content ">
-            <div class="col-md-6 w-100 content">
+            <div class="col-md-6 w-100 content animate__animated animate__fadeInLeft">
                 <h1 class="header-title text-white mb-0" >Web Hosting Easy and Secure</h1>
                 <p class="header-caption text-white">Full control of what you use and pay for</p>
                 <div class="domain d-block d-lg-flex">
@@ -58,7 +56,7 @@
                     <button class="btn-primary header-btn">CHECK AVAILABILITY</button>
                 </div>
             </div>
-            <div class="col-md-6 img ">
+            <div class="col-md-6 img animate__animated animate__fadeIn">
                 <img src="./images/header.png" alt="img-header" class="w-100">
             </div>
         </div>
@@ -69,25 +67,25 @@
 <main>
     <section class="services py-70">
         <div class="container">
-            <h2 class="section-title">What will you get if you'll join us</h2>
-            <p class="section-caption">Get the best web hosting service at the price you can afford</p>
+            <h2 class="section-title ">What will you get if you'll join us</h2>
+            <p class="section-caption ">Get the best web hosting service at the price you can afford</p>
             <div class="row mt-80">
                 <div class="col-12 col-lg-6 service-col-1">
-                    <div class="service d-flex mt-0 ">
+                    <div class="service d-flex mt-0 wow animate__animated animate__fadeInLeft ">
                         <img src="./images/service1.svg">
                         <div class="service-content">
                             <h3 class="mt-0">WE GIVE A CARE</h3>
                             <p class="m-0">Beside the support we provide you with various tools to be able to host and manage your websites</p>
                         </div>
                     </div>
-                    <div class="service d-flex">
+                    <div class="service d-flex wow animate__animated animate__fadeInLeft">
                         <img src="./images/service2.svg">
                         <div class="service-content">
                             <h3 class="mt-0">TWEAK AS YOU WISH</h3>
                             <p class="m-0">Be able to customize your plan over time if needed so you pay only for what you use</p>
                         </div>
                     </div>
-                    <div class="service d-flex">
+                    <div class="service d-flex wow animate__animated animate__fadeInLeft">
                         <img src="./images/service3.svg">
                         <div class="service-content">
                             <h3 class="mt-0">SECURITY AT ITS BEST</h3>
@@ -95,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 service-col-2"><img class="w-100 services-img" src="./images/services.png"></img></div>
+                <div class="col-12 col-lg-6 service-col-2 wow animate__animated animate__fadeIn"><img class="w-100 services-img" src="./images/services.png"></img></div>
             </div>
         </div>
     </section>
@@ -105,7 +103,7 @@
             <h2 class="section-title">Don't know where to start from?</h2>
             <p class="section-caption">We've got the best articles,tools and resources to help you to start</p>
             <div class="row mt-80">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 wow animate__animated animate__backInLeft">
                     <div class="start-box start-box-1 ">
                         <div class="start-logo start-logo-1 d-flex">
                             <img src="./images/start-box1.svg" alt="">
@@ -119,7 +117,7 @@
                         <img src="./images/Clouds.png" class="start-img-fix">
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 wow animate__animated animate__backInRight">
                     <div class="start-box start-box-2">
                         <div class="start-logo start-logo-2 d-flex">
                             <img src="./images/start-box2.svg" class="">
@@ -143,7 +141,7 @@
                 <h2 class="section-title">Don't know where to start from?</h2>
                 <p class="section-caption">We've got the best articles,tools and resources to help you to start</p>
             <div class="row mt-80">
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3 wow animate__animated animate__bounceInUp" data-wow-delay="0.1s">
                     <div class="plan">
                         <div class="plan-top">
                             <img src="./images/plan1.png">
@@ -157,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3 wow animate__animated animate__bounceInUp" data-wow-delay="0.3s">
                     <div class="plan">
                         <div class="plan-top">
                             <img src="./images/plan2.png">
@@ -171,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3 wow animate__animated animate__bounceInUp" data-wow-delay="0.5s">
                     <div class="plan">
                         <div class="plan-top">
                             <img src="./images/plan3.png">
@@ -185,7 +183,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3 wow animate__animated animate__bounceInUp" data-wow-delay="0.7s">
                     <div class="plan">
                         <div class="plan-top">
                             <img src="./images/plan1.png">
@@ -365,7 +363,7 @@
         <img src="images/dotted_square.png" class="comments-img comments-img2 d-none d-lg-block">
     </section>
 
-    <section class="clients py-70">
+    <section class="clients py-70 wow animate__animated animate__fadeInUp">
         <div class="container">
             <h2 class="section-title">Our Clients</h2>
             <p class="section-caption">You can be the next one and may start for free</p>
@@ -488,6 +486,9 @@
 <script src="./scripts/jquery-3.6.1.min.js"></script>
 <script src="./scripts/owl.carousel.min.js"></script>
 <script src="./scripts/app.js"></script>
-
+<script src="./scripts/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
