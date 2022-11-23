@@ -54,6 +54,11 @@ header{
     padding: 10px 15px;
     border-radius: 5px;
     font-family: 'Nunito Bold';
+    transition: all 0.3s;
+}
+.login-btn:hover{
+    background-color: #93A5FF ;
+    color: #fff;
 }
 .contact-btn span{
     margin-left: 10px;
@@ -105,7 +110,13 @@ header{
 }
 .header-btn{
     margin-left: 25px;
+    transition: all 0.3s;
 }
+.header-btn:hover{
+    background-color: #a3b2ff;
+}
+
+
 
 /* ==================== End Header  ==================== */
 
@@ -192,13 +203,18 @@ header{
     display: block;
     width: 155px;
     margin-left: auto;
+    padding: 14px 0 14px 15px;
 }
 .start-a i{
     margin-left: 10px;
+    transition: all 0.3s;
 }
-.start-btn i {
-    margin-left: 10px;
+.start-a:hover i{
+    margin-left: 15px;
+
 }
+
+
 .start-img-fix{
     position: absolute;
     right: 20px;
@@ -226,7 +242,7 @@ header{
     overflow: hidden;
     text-align: center;
     color: #2E2E2E;
-    box-shadow: 0px 0px 15px 0px rgb(0,0,0,0.12);
+    box-shadow: 0 0 15px 0 rgb(0,0,0,0.12);
     border-radius: 5px;
     margin-bottom: 25px;
 
@@ -239,7 +255,7 @@ header{
 }
 .plan-top{
     height: 320px;
-    padding: 60px 30px 0px 30px;
+    padding: 60px 30px 0 30px;
     transition: 0.3s;
     border-top: 8px solid transparent;
 }
@@ -271,9 +287,21 @@ header{
     width: 185px;
     margin-top: 50px;
     margin-bottom: 15px ;
+    text-align: left;
+    padding: 14px 0 14px 15px;
+    transition: all 0.3s;
+
+}
+.plan-btn:hover{
+    color: #F7F8FF !important;
+    background-color: #93A5FF !important;
 }
 .plan-btn i {
     margin-left: 10px;
+    transition: all 0.5s;
+}
+.plan-btn:hover i {
+    margin-left: 15px;
 }
 
 /* -------- Comments Section ------------*/
@@ -405,6 +433,13 @@ header{
     display: block;
     width: 170px;
     margin: 0 auto;
+    transition: all 0.3s;
+}
+.logo-btn:hover{
+    background-color: #a3b2ff;
+}
+.logo-btn > i {
+    margin-left: 4px;
 }
 
 /* ==================== End Main  ==================== */
@@ -412,12 +447,10 @@ header{
 /* ==================== Start Footer  ==================== */
 
 footer{
-    background: url("../images/footer_bg.png");
     background-size: cover;
-    background-repeat: no-repeat;
     color: #fff;
     padding: 140px 0 30px 0;
-    background-position: center top;
+    background: url("../images/footer_bg.png") no-repeat center top;
 }
 footer p{
     line-height: 28px;
@@ -486,4 +519,8 @@ footer .footer-bottom > div:last-child > a {
     content: " ";
     border-right: 1px solid #fff;
     margin: 0 15px;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
