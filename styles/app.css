@@ -450,7 +450,11 @@ footer{
     background-size: cover;
     color: #fff;
     padding: 140px 0 30px 0;
-    background: url("../images/footer_bg.png") no-repeat center top;
+    background: url("../images/footer_bg.png");
+    background-size: cover;
+    background-repeat:  no-repeat ;
+    background-position:  center top;
+
 }
 footer p{
     line-height: 28px;
