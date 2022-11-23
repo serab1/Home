@@ -16,6 +16,33 @@ times.addEventListener('click' , function (){
     }
 })
 
+//----------------------------------------
+// const items = document.querySelectorAll('.menu-item')
+// let login = document.querySelector('.login-btn')
+// let menuLink = document.querySelector('.menu-link')
+// items.forEach( items => {
+//
+//
+//     items.addEventListener('click', () => {
+//         if (items.classList.contains("login-btn")) {
+//             login.classList = "menu-link";
+//             removeActiveClasses()
+//             items.classList.add("active")
+//         } else {
+//             removeActiveClasses()
+//             items.classList.add("active")
+//         }
+//     })
+//
+// })
+//
+//
+// function removeActiveClasses() {
+//     items.forEach(items => {
+//         items.classList.remove('active')
+//     })
+// }
+
 //-----------------------------------------
 
 $('.owl-carousel').owlCarousel({

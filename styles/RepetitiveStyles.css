@@ -3,13 +3,13 @@
     margin-right: auto;
 }
 .m-0{
-    margin: 0; !important;
+    margin: 0 !important;
 }
 .mb-0{
-    margin-bottom: 0; !important;
+    margin-bottom: 0 !important;
 }
 .mt-0{
-    margin-top: 0; !important;
+    margin-top: 0 !important;
 }
 .mr-0{
     margin-right: 0 !important;
@@ -21,13 +21,13 @@
     margin-top: 80px !important;
 }
 .p-0{
-    margin: 0; !important;
+    margin: 0 !important;
 }
 .pm-0{
-    padding-bottom: 0; !important;
+    padding-bottom: 0 !important;
 }
 .pt-0{
-    padding-top: 0; !important;
+    padding-top: 0 !important;
 }
 .pt-80{
     padding-top: 80px;
@@ -46,18 +46,26 @@
     display: block ;
 }
 .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .text-white {
     color: #fff !important;
 }
 .align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
 }
 .justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
     justify-content: center !important;
 }
 .justify-content-between {
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
     justify-content: space-between !important;
 }
 .border-0{
@@ -85,6 +93,8 @@
         display: block !important;
     }
     .d-sm-flex{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
@@ -97,6 +107,8 @@
         display: block !important;
     }
     .d-md-flex{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
@@ -109,6 +121,8 @@
         display: block !important;
     }
     .d-lg-flex{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
@@ -121,6 +135,8 @@
         display: block !important;
     }
     .d-xl-flex{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
         display: flex !important;
     }
 }
